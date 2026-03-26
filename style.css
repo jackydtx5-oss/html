@@ -1,0 +1,47 @@
+#kolom {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: skyblue;
+  border: 2px solid black;
+}
+
+#kolom-pw {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: skyblue;
+  border: 2px solid black;
+}
+
+#tombol {
+  padding: 10px 10px;
+  position: relative;
+  top: 100px;
+  right: 145px;
+  background-color: skyblue;
+  border-radius: 4px;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+
+#tombol:hover {
+  box-shadow: 0 0;
+  transform: translate(3px, 3px);
+}
+
+#text {
+  font-size: clamp(20px, 4vm, 48px);
+  position: relative;
+  top: 300px;
+  left: 100px;
+}
+
+.kolom {
+  position: relative;
+  top: 50px;
+  left: 70px;
+}
+
+p {
+  font-family: "Sans-Serif";
+}
+
